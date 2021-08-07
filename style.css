@@ -1,0 +1,54 @@
+table {
+    width: 600px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 10px;
+}
+td, th {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+th {
+    font-weight: bold;
+    background: #e3edf7;
+}
+label {
+    display: block;
+    width: 300px;
+    margin: 5px 0;
+}
+input[type=text], textarea, select {
+    width: 350px;
+    padding: 5px;
+}
+input[type=submit] {
+    width: 100px;
+    border-radius: 2px;
+    padding: 5px;
+    border: 1px solid #ffa71c;
+    background: #ffbe32;
+    color: #fff;
+}
+select#operator_id {
+    display: none;
+}
+select#id_user {
+    display: none;
+}
+select#id_calls {
+    display: none;
+}
+.main_form {
+    width: 380px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffa71c;
+    background: #fff4a1;
+}
+.tab {
+    float:right;
+}
+.forms {
+    display:inline-block;
+}
